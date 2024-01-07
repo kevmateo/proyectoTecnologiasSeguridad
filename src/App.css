@@ -1,19 +1,49 @@
+.inicio-pagina {
+  background-image: url('./imagenes/fondo BN.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  height: 100vh;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  margin-bottom: 200px;
+  margin-top: -20px;
+}
+
 .titulo-proyecto {
   display: block;
   white-space: nowrap;
-  border-right: 4px solid;
-  width: 26ch;
-  animation: typing 2s steps(26), blink 0.5s step-end infinite alternate;
-  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .tema-proyecto {
   display: block;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 30ch;
-  animation: typing 2s steps(30), blink 0.5s step-end infinite alternate;
+  width: 34ch;
+  animation: typing 2s steps(34), blink 0.5s step-end infinite alternate;
   overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #9b9b9b;
+  margin-bottom: 20px;
+}
+
+.contenedor-boton-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 @keyframes typing {
@@ -26,4 +56,81 @@
   50% {
     border-color: transparent;
   }
+}
+
+.contenedor-diapositiva-1,
+.contenedor-diapositiva-3 {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.contenedor-diapositiva-2,
+.contenedor-diapositiva-4 {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.contenedor-titulo-dipositiva-1,
+.contenedor-titulo-diapositiva-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.contenedor-titulo-dipositiva-2,
+.contenedor-titulo-diapositiva-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.descripcion-diapo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin: 20px 0 40px 0;
+  color: #9b9b9b;
+  font-weight: normal;
+}
+
+.boton-iniciar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgb(14 165 233);
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transform: perspective(400px) translateZ(0);
+}
+
+.boton-iniciar:hover {
+  transform: perspective(400px) translateY(3px) translateZ(0) scale(0.95);
+}
+
+.boton-iniciar:active {
+  transform: perspective(400px) translateY(6px) translateZ(0) scale(0.9);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }

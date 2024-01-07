@@ -12,13 +12,13 @@ Asegúrate de tener instalado Node.js en tu sistema.
 
 ### Clonar el Repositorio en Visual Studio Code 
 
-En tu terminal escribe
-git clone https://github.com/kevmateo/proyectoTecnologiasSeguridad.git
-cd proyecto-tecnologias
+En tu terminal escribe <br>
+git clone https://github.com/kevmateo/proyectoTecnologiasSeguridad.git <br>
+cd proyecto-tecnologias <br>
 npm install
 
 ### Iniciar la Aplicación
 
-Una vez instaladas las dependencias, puedes iniciar la aplicación.
+Una vez instaladas las dependencias, puedes iniciar la aplicación. <br>
 npm start
 

@@ -253,7 +253,7 @@ function App() {
           <div className='contenedor-titulo-diapositiva-4'>
               <p>Tendencias Tecnológicas EC 2023</p>
               <p className='descripcion-diapo'>Descubre cómo las empresas afrontan el reto de adaptarse a la era digital, implementando innovadores modelos de negocio para enriquecer la experiencia de sus clientes</p>
-              <button className="boton-iniciar" onClick={() => handlerPasarSeccion(inicioRef)}>Continuar <MdKeyboardDoubleArrowUp /></button>
+              <button className="boton-iniciar" onClick={() => handlerPasarSeccion(inicioRef)}>Terminamos <MdKeyboardDoubleArrowUp /></button>
           </div>
           <div className='contenedor-diapositiva-4'>
             <Diapositiva imagenes={diapositiva4} />
